@@ -101,7 +101,7 @@ root.bind("q",DwnUnSnN)
 
 
 for i in range(len(Players)):
-    Cells[randint(0,Settings.NumCells[0])][randint(0,Settings.NumCells[1])].RecUnits(Units(randint(100,150),Players[i]))
+    Cells[randint(0,Settings.NumCells[0]-1)][randint(0,Settings.NumCells[1]-1)].RecUnits(Units(randint(100,150),Players[i]))
 
 
 root.mainloop()
